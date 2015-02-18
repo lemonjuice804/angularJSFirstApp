@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>My HTML File</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="bower_components/angular/angular.js"></script>
+</head>
+<body>
+  <p>Nothing here {{'yet' + '!'}}</p>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#videos/1">Link 1</a></li>
+    <li><a href="#videos/2">Link 2</a></li>
+  <ul>
+
+  <div ng-view></div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="myController.js"></script>
+  <script src="detail/detail.js"></script>
+  <script src="home/home.js"></script>
+</body>
+</html>
